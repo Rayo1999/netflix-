@@ -1,0 +1,854 @@
+body {
+    margin-top: 30px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(35,35,35);
+}
+
+.container{
+    background-image: url(img/NG-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size:contain;
+    width: 100%;
+    height: 550px;
+
+
+}
+.background {
+    background-color: rgba(0,0,0,0.7);
+    height:550px;
+
+}
+.logobox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.logo{
+    margin-top: 15px;
+    position: relative;
+    width: 150px;
+    height: 70px;
+}
+.signin{
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: rgb(193,17,5);
+    background-color: rgb(193,17,5);
+    color: #FFFFFF;
+}
+.movie{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -2rem;
+}
+.unlimited{
+    padding-left:1rem ;
+    padding-right:1rem ;
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-size: 47px;
+    font-weight: bolder !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 9rem;
+}
+.Cancel{
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -40px;
+
+}
+.membership{
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.buttonbox{
+display: flex;
+justify-content: center;
+align-items: center;
+    align-content: center;
+}
+.email{
+    padding-left: 1rem;
+    display: flex !important;
+    justify-content: left !important;
+    align-items: left;
+    align-content: left;
+    background-color: transparent;
+    /* background-color: rgb(19,25,25); */
+    color: rgb(247,247,247);
+    opacity: 90%;
+    border-color: rgb(36,36,36) rgb(36,36,36);
+    border-radius:5px ;
+    width: 36vw;
+    height:50px ;
+    font-family:Montserrat;
+    font-weight: 1000px bolder !important;
+    font-size:15px;
+
+
+}
+.send{
+    margin-left: 10px;
+    background-color: rgb(193,17,25);
+    border-color: rgb(193,17,25);
+    border-radius: 5px;
+    width: 17vw;
+    height:50px ;
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-weight: 1000px bolder !important;
+    font-size:20px;
+
+}
+.more{
+    padding-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.container2{
+    padding-top: 0.5rem;
+}
+.tvbox{
+    padding-top: 2rem;
+padding: 2rem;
+padding-bottom: 5rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 4rem; */
+
+}
+.enjoy{
+    color: white;
+}
+.watch{
+    color: #FFFFFF;
+    width: 35.34vw;
+}
+.left{
+    padding-top: 2.5rem;
+
+}
+.right{
+}
+.tv{
+    /* margin-left: 140px; */
+    width: 43vw;
+}
+.enjoy{
+    font-family:Montserrat;
+    font-weight: 500px bolder;
+    font-size:50px;
+}
+.watch{
+    font-family:Montserrat;
+    font-weight: 300px bolder;
+    font-size:20px;
+    margin-top: -20px;
+}
+.stranger{
+    display: flex;
+    background-color: black;
+    padding-bottom: 4rem;
+
+    /* padding-bottom: 3rem; */
+
+}
+.right1{
+    color: #FFFFFF;
+    padding-right: 8rem;
+}
+.container3{
+    padding-top: 0.7rem;
+}
+.st{
+    width: 15vw;
+    background-image: url(img/mobile-0819.jpg);
+    /* background-position: right bottom, left top; */
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+    /* margin-top: -30px !important; */
+margin-top:-7rem ;  
+  width: 40vw;
+    height: 550px;
+    /* overflow-x: hidden !important; */
+    background-size:contain;
+    position: relative;
+}
+.loading{
+    display: flex;
+    width: 220px;
+    height: 70px;
+  border: 2px solid rgb(36,36,36);
+  border-radius: 10px;
+position: relative;
+margin-top:-14rem !important;
+margin-right: 25px;
+padding: 0.6rem;
+margin-left: 5rem;
+background-color: black;
+
+  /* margin: 20px; */
+  
+}
+.sts{
+    font-family:Montserrat;
+    font-weight: 900px bolder;
+    font-size:14px;
+    color:white;
+padding: 0.1rem;
+margin-left: 1rem;
+
+}
+.dld{
+    font-family:Montserrat;
+    font-weight: 300px bolder;
+    font-size:12px;
+    color: rgb(0,94,228);
+    margin-left: 1rem;
+    margin-top: -0.8rem;
+
+}
+
+.boxshot2{
+    width:5vw ;
+    height: 70px;
+}
+.Download{
+    font-family:Montserrat;
+    font-weight: 500px bolder;
+    font-size:50px;
+}
+.save{
+    font-family:Montserrat;
+    font-weight: 300px bolder;
+    font-size:20px;
+    margin-top: -15px;
+}
+.anywherebox{
+    padding-top: 0.7rem;
+}
+.anywhere{
+    background-color: black;
+    padding: 3rem;
+    padding-bottom: 5rem;
+
+
+}
+.watch1{
+color: #FFFFFF;
+font-family:Montserrat;
+    font-weight: 800px bolder;
+    font-size:48px;
+}
+.tablet{
+color: #FFFFFF;
+font-family:Montserrat;
+    font-weight: 300px bolder;
+    font-size:20px;
+    margin-top: -15px;
+}
+.container4{
+    padding-top: 0.7rem;
+}
+.profile{
+    display: flex;
+    background-color: black;
+    padding: 0.5rem;
+    padding-bottom: 5rem;
+
+}
+.kp{
+    width: 50vw;
+}
+.create{
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-weight: 800px bolder;
+    font-size:48px;
+
+}
+.kids{
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-weight: 300px bolder;
+    font-size:20px;
+    margin-top: -15px;
+}
+.frequentbox{
+margin-top: -1rem;
+}
+.frequent{
+    background-color: black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+
+
+
+}
+.questions{
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-weight: 1500px bolder;
+    font-size:38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 2rem;
+
+}
+.Netflix{
+
+}
+.Netflix2{
+    margin-top: 0.8rem;
+    border: rgb(40,40,40);
+
+}
+.whatis{
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-weight: 300px bolder;
+    font-size:20px;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-left:2rem ;
+    padding-right: 2rem;
+    border-bottom: 3rem;
+    background-color: rgb(40,40,40);
+    width: 90vw;
+    height: 85px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+    border: rgb(40,40,40);
+}
+.Netflix :hover
+{background-color: rgb(65,65,65);}
+
+.Netflix2 :hover
+{background-color: rgb(65,65,65);}
+
+.bottom{
+    padding-top:3rem;
+}
+.ready{
+    color: #FFFFFF;
+    font-family:Montserrat;
+    font-weight: 100px bolder;
+    font-size:18px;
+    /* margin-top: -15px; */
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
+}
+
+.lastc{
+    margin-top: 0.7rem;
+}
+.questionsbox{
+    padding: 3rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+align-content: center;
+padding-bottom: 5rem;
+}
+
+.question3 a{
+    color: rgb(179,179,179);
+    font-family:Montserrat;
+    font-weight: 100px bolder;
+    font-size:15px;
+}
+.question4{
+    color: rgb(179,179,179);
+    font-family:Montserrat;
+    font-weight: 100px bolder;
+    font-size:15px;
+}
+.english{
+    padding-left: 1rem;
+    display: flex !important;
+    justify-content: left !important;
+    align-items: left;
+    align-content: left;
+    background-color: rgb(19,25,25);
+    color: rgb(255,255,255);
+    border-color: rgb(36,36,36);
+    border-right-color: rgb(15,15,15)!important; 
+    border-bottom-color: rgb(36,36,36);  
+    border-radius:5px ;
+    width: 14vw;
+    height:30px ;
+    font-family:Montserrat;
+    font-weight: 1000px bolder !important;
+    font-size:15px;}
+
+    @media only screen and (max-width:600px) 
+    {body{
+        margin-top: 30px;
+        margin: 0px;
+        box-sizing: border-box;
+        background-color: rgb(35,35,35);
+        overflow: hidden;
+    }
+
+
+    .container{
+        background-image: url(img/NG-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size:cover;
+        width: 100%;
+        height: 500px;
+    
+    
+    }
+    .background {
+        background-color: rgba(0,0,0,0.7);
+        height:550px;
+    
+    }
+    .logobox{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .logo{
+        margin-top: 15px;
+        position: relative;
+        width: 150px;
+        height: 70px;
+    }
+    .signin{
+        margin-top: 25px;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        border: rgb(193,17,5);
+        background-color: rgb(193,17,5);
+        color: #FFFFFF;
+    }
+    .movie{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-top: -2rem;
+    }
+    .unlimited{
+        padding-left:1rem ;
+        padding-right:1rem ;
+        color: #FFFFFF;
+        font-family:Montserrat;
+        font-size: 26px;
+        font-weight: bolder !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 5rem;
+    }
+    .Cancel{
+        color: #FFFFFF;
+        font-family:Montserrat;
+        font-size: smaller;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: -20px;
+    
+    }
+    .membership{
+        color: #FFFFFF;
+        font-family:Montserrat;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .tvbox{
+        padding-top: 1rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 4rem; */
+    
+    }
+    .enjoy{
+        margin-top: 1rem;
+        color: white;
+        font-size: 18px;
+    }
+    .watch{
+        margin-top: -0.5rem;
+        color: #FFFFFF;
+        font-size:12px ;
+    }
+    .left{
+        padding-top: 2.5rem;
+    
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .tv{
+        /* margin-left: 140px; */
+        width: 33vw;
+    }
+    .container3{
+        padding-top: 0.7rem;
+    }
+    .stranger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+    .st{
+        width: 12vw;
+        background-image: url(img/mobile-0819.jpg);
+      background-repeat: no-repeat, repeat;
+      background-position: center;
+      margin: auto;
+    margin-top:-7rem ;  
+      width: 40vw;
+        height: 550px;
+        background-size:contain;
+        position: relative;
+    }
+    .loading{
+        margin: auto;
+        display: flex;
+        width: 180px;
+        height: 40px;
+      border: 2px solid rgb(36,36,36);
+      border-radius: 10px;
+    position: relative;
+    margin-top:-14rem !important;
+    padding: 0.6rem;
+    background-color: black;
+      
+    }
+    .sts{
+        font-family:Montserrat;
+        font-weight: 900px bolder;
+        font-size:14px;
+        color:white;
+    padding: 0.1rem;
+    margin-left: 1rem;
+    }
+    .dld{
+        font-family:Montserrat;
+        font-weight: 300px bolder;
+        font-size:12px;
+        color: rgb(0,94,228);
+        margin-left: 1rem;
+        margin-top: -0.8rem;
+    
+    }
+    
+    .boxshot2{
+        width:5vw ;
+        height: 50px;
+    }
+    .Download{
+        font-family:Montserrat;
+        font-weight: 200px bolder;
+        font-size:20px;
+       
+    }
+
+    .right1{
+        margin-top: 1rem;
+        /* margin-left: 4rem; */
+    }
+    .save{
+        font-family:Montserrat;
+        font-weight: 150px bolder;
+        font-size:10px;
+        margin-top: -15px;
+    }
+    .anywherebox{
+        padding-top: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    }
+    .anywhere{
+        background-color: black;
+        padding: 6.5rem;
+        padding-bottom: 5rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items:center ;
+    
+    
+    }
+    .watch1{
+    color: #FFFFFF;
+    font-family:Montserrat;
+        font-weight: 400px bolder;
+        font-size:24px;
+    }
+    .tablet{
+    color: #FFFFFF;
+    font-family:Montserrat;
+        font-weight: 150px bolder;
+        font-size:10px;
+        margin-top: -15px;
+        
+    }
+
+    .container4{
+        padding-top: 0.7rem;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: black;
+        padding: 0.5rem;
+        padding-bottom: 5rem;
+    
+    }
+    .kp{
+        width: 30vw;
+    }
+    .create{
+        color: #FFFFFF;
+        font-family:Montserrat;
+        font-weight: 400px bolder;
+        font-size:24px;
+    
+    }
+    .kids{
+        color: #FFFFFF;
+        font-family:Montserrat;
+        font-weight: 150px bolder;
+        font-size:10px;
+        margin-top: -15px;
+    }
+   
+
+    .frequentbox{
+        margin-top: 1rem;
+    }
+    .frequent{
+        background-color: black;
+        padding-left:1.5rem;
+        padding-right:1.5rem;
+        padding-bottom:2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    
+    
+    
+    }
+    .questions{
+        color: #FFFFFF;
+        font-family:Montserrat;
+        font-weight: 750px bolder;
+        font-size:19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 2rem;
+    
+    }
+    .Netflix{
+    
+    }
+    .Netflix2{
+        margin-top: 0.8rem;
+        border: rgb(40,40,40);
+    
+    }
+    .whatis{
+        color: #FFFFFF;
+        font-family:Montserrat;
+        font-weight: 150px bolder;
+        font-size:10px;
+        padding: 1rem;
+        padding-top: 0.5rem;
+        padding-left:1rem ;
+        padding-right: 1rem;
+        border-bottom: 1.5rem;
+        background-color: rgb(40,40,40);
+        width: 67vw;
+        height: 37px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        align-content: left;
+        border: rgb(40,40,40);
+    }
+    .Netflix :hover
+    {background-color: rgb(65,65,65);}
+    
+    .Netflix2 :hover
+    {background-color: rgb(65,65,65);}
+    
+    .bottom{
+        padding-top:3rem;
+    }
+    .ready{
+        color: #FFFFFF;
+        font-family:Montserrat;
+        font-weight: 150px bolder;
+        font-size:10px;
+        /* margin-top: -15px; */
+        padding-left: 4rem;
+        padding-right: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content:center ;
+    }
+
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content:center ;
+        margin-right: 1rem;
+
+    }
+    .buttonbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .email{
+font-size: 12px;
+padding: 1rem;
+width: 50vw;
+border: #FFFFFF  1px solid;
+    }
+    .send{
+        margin-left: 2rem;
+        font-size: 12px;
+        width: 35vw;
+        margin-top: 1rem;
+
+        
+    }
+    
+    .lastc{
+        margin-top: 0.7rem;
+    }
+    .questionsbox{
+        padding: 2rem;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    align-content: center;
+    padding-bottom: 5rem;
+    }
+
+
+    
+    .question3 a{
+        color: rgb(179,179,179);
+        font-family:Montserrat;
+        font-weight: 80px bolder;
+        font-size:13px;
+    }
+    .question4{
+        color: rgb(179,179,179);
+        font-family:Montserrat;
+        font-weight: 80px bolder;
+        font-size:13px;
+    }
+    .english{
+        padding-left: 1rem;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        align-content: center;
+        background-color: rgb(19,25,25);
+        color: rgb(255,255,255);
+        border-color: rgb(36,36,36);
+        border-right-color: rgb(15,15,15)!important; 
+        border-bottom-color: rgb(36,36,36);  
+        border-radius:5px ;
+        width: 15vw;
+        height:30px ;
+        font-family:Montserrat;
+        font-weight: 500px bolder !important;
+        font-size:10px;}
+
+    }
